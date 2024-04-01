@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopOnline</title>
+</head>
+<body>
+    <h2>Добваить товар</h2>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post" style="width: 350px;">
+        <fieldset> 
+            Наименование<br>
+            <input type="text" name="name"><br>
+            Категория<br>
+            <input type="text" name="category"><br>
+            Еденицы измерения<br>
+            <input type="text" name="units"><br>
+            Дисконт<br><input type="checkbox" name="discont">
+            <input type="text" disabled><br>
+            Описание <br><textarea name="description" > </textarea><br>
+            Количество<br>
+            <input type="number" name="count"><br>
+            Цена<br>
+            <input type="number" name="price"><br><br>
+            <input type="file" name="add file" accept="image/*">
+        </fieldset> <br>
+        <button type="submit"> Добавить товар</button>
+    </form>
+</body>
+</html>
